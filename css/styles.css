@@ -1,0 +1,193 @@
+/* general tags */
+
+body{
+  font-family:"Montserrat";
+
+}
+
+
+h1{
+ font-family: 'Montserrat-Black', sans-serif;
+font-weight: 900;
+ font-size: 3.5rem;
+ line-height: 1.5;
+}
+h2{
+font-size: 3rem;
+font-family: 'Montserrat-Black', sans-serif;
+line-height: 3.5rem;
+font-weight: bold;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+
+}
+
+
+ /* classes styles */
+
+.container_fluid{
+  padding: 3% 15%;
+}
+.fa-brands{
+padding:0 5px;
+}
+
+
+/* Navigation Bar */
+.navbar{
+
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+/* Buttons */
+
+.download-btn{
+  margin: 5% 3% 0 0;
+}
+#title{background-color: #ff4c68;
+color:white;
+padding-bottom: 15%;
+}
+/* title image */
+.dog-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features section */
+
+#features{
+  position: relative;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.icon{color: #ef8182; margin-bottom: 1rem;}
+.icon:hover{color: #ff4c68}
+.s1-title{
+    font-family: "Montserrat";
+    font-weight: 600;
+  font-size: 1.5;
+}
+
+.sub1-title{
+  color: #8f8f8f;
+}
+.box-item{
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials section */
+#testimonials{
+  position: relative;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8182;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  padding: 20px;
+}
+/* press section */
+
+
+#press{
+  text-align: center;
+  background-color: #ef8182;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* pricing section */
+
+
+#pricing
+{
+  text-align: center;
+  padding: 100px;
+}
+
+.col-div{
+  padding: 3% 2%;
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color:white;
+  padding: 7% 15%;
+}
+.last-title{
+  font-size: 3.5rem;
+  padding: 7% 15%;
+}
+.d2-btn{
+  margin: 0 1% 5%;
+}
+
+
+#footer{
+  background-color: white;
+text-align: center;
+
+padding: 5% 8%;
+}
+.icons{
+
+}
+.soicon {
+  margin: 5px
+}
+
+
+
+@media (max-width: 950px) {
+
+.nav-item{
+  background: #ff6d68;
+  width: 30%;
+  position: relative;
+  left: 70%;}
+.title-sec{
+  text-align: center;}
+
+
+.dog-img{
+
+position: static;
+margin-top: 5%;
+transform: rotate(0);}
+
+}
